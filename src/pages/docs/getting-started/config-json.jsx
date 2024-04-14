@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-import Header from "../../Header";
-import Sidenav from "../Sidenav"
+import Header from "../../../components/docs/Header";
+import Sidenav from "../../../components/docs/Content/Sidenav";
 
 
 export default function ConfigJson() {

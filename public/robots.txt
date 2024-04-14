@@ -7,4 +7,4 @@ Disallow: /logoBuilder
 Disallow: /thanks
 Disallow: /404
 
-Sitemap: https://redeye.sleezzi.fr/sidemap.xml
+Sitemap: https://sidemap.xml

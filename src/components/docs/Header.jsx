@@ -45,7 +45,7 @@ export default function Header() {
                 <span></span>
             </div>
             <Link to="/docs/">
-                <img src="https://redeye.sleezzi.fr/cdn/img/Logo/RedEye_Rounded.png" alt="logo"></img>RedEye - Docs
+                <img src="/cdn/img/Logo/RedEye_Rounded.png" alt="logo"></img>RedEye - Docs
             </Link>
             <button onClick={toggleTheme} className="toggleTheme" title="Switch from dark mode to light mode">
                 <span className="material-symbols-outlined">dark_mode</span>

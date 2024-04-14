@@ -26,11 +26,6 @@ body.light {
     --alt-color: #555;
     background: var(--background);
 }
-#root {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-}
 i {
     color: var(--alt-color);
 }
@@ -43,7 +38,6 @@ a:hover {
     text-decoration: underline;
     color: var(--alt-a-color);
 }
-
 .toggleTheme {
     cursor: pointer;
     transition: background .5s ease;
@@ -64,8 +58,6 @@ a:hover {
     height: calc(100% - 4rem);
     width: 100%;
 }
-
-
 pre:not(.small) {
     background: black;
     color: white;
@@ -79,25 +71,6 @@ pre.small {
     overflow: scroll hidden;
     width: fit-content;
     padding: .5rem;
-}
-::-webkit-scrollbar {
-    width: 1vh;
-    height: 1vh;
-    background: #333;
-    cursor: pointer;
-}
-/* Track */
-::-webkit-scrollbar-track { /* La scroll bar */
-    background: transparent;
-}
-/* Handle */
-::-webkit-scrollbar-thumb { /* La scroll bar */
-    background: var(--color);
-    border-radius: 5vh;
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover { /* La scroll bar */
-    background: var(--alt-color);
 }
 .note, .warning { /* CSS Pour les notes */
     background: var(--alt-background);
