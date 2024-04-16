@@ -1,33 +1,26 @@
 import { Link } from "react-router-dom";
 
-import Header from "../../../components/docs/Header";
-import Sidenav from "../../../components/docs/Content/Sidenav";
-
+import styles from "../../../cdn/css/docs/docs_index.module.css";
 
 export default function ConfigJson() {
     return (
         <>
-            <Header />
-            <div>
-                <Sidenav />
-                <main>
-                    <div>
-                        <h1>Config.json</h1>
-                        <p>To make RedEye work, you need to create and complete a <i>config.js</i> file</p>
-                        <p>This is what it should look like</p>
-                        <pre lang="json">
+            <h1>Config.json</h1>
+            <p>To make RedEye work, you need to create and complete a <i>config.js</i> file</p>
+            <p>This is what it should look like</p>
+            <pre lang="json">
         {`
 {
-    "token": "Your bot's token",`}<i> =&gt;{` The token can be found on `}<a href="https://discord.com/developers/applications">Discord developers</a></i>{`
-        "firebase": {`}<i> =&gt; {`By default, the bot uses Firebase to store its data, if you do not want to use it then change the database.js code`}</i>{`
-            ... `}<i>=&gt; {`all this code can be found on the firebase page`}</i>{`
-        }
+    "token": "Your bot's token",`}<i> =&gt;  The token can be found on <a href="https://discord.com/developers/applications">Discord developers</a></i>{`
+    "prefix": "!",`}<i> =&gt; The prefix of the bot, by default it is "!" but it can be changed</i>{`
+    "firebase": {`}<i> =&gt; By default, the bot uses Firebase to store its data, if you do not want to use it then change the database.js code</i>{`
+        ... `}<i>=&gt; all this code can be found on the firebase page</i>{`
+    }
 }`}
-                        </pre>
-                        <Link rel="noopener noreferrer" className="nav" to="/docs/gettings-started/download-modules">Previous</Link>
-                        <Link rel="noopener noreferrer" className="nav" to="/docs/gettings-started/launch">Next</Link>
-                    </div>
-                </main>
+            </pre>
+            <div className={styles.nav}>
+                <Link rel="noopener noreferrer" to="/docs/gettings-started/download-modules">Previous</Link>
+                <Link rel="noopener noreferrer" to="/docs/gettings-started/launch">Next</Link>
             </div>
         </>
     );

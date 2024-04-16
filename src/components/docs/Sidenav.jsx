@@ -1,32 +1,22 @@
-import { useEffect } from "react";
-import "../../../cdn/css/docs/sidenav.css";
-
 import { Link } from "react-router-dom";
 
-export default function Sidenav() {
+import styles from "../../cdn/css/docs/sidenav.module.css";
+
+export default function Sidenav({ sidenavIsOpen }) {
     const developpeMenu = (e) => {
-        if (e.target.parentNode.className === "active") {
-            e.target.parentNode.classList.remove("active");
+        if (e.target.parentNode.className === styles.active) {
+            e.target.parentNode.classList.remove(styles.active);
         } else {
-            e.target.parentNode.classList.add("active");
+            e.target.parentNode.classList.add(styles.active);
         }
     }
-    useEffect(() => {
-        if (document.querySelector(`a[href="${window.location.href.split(window.location.host)[1]}"]`)) {
-            document.querySelector(`a[href="${window.location.href.split(window.location.host)[1]}"]`).parentNode.classList.add("active");
-            document.querySelector(`a[href="${window.location.href.split(window.location.host)[1]}"]`).parentNode.parentNode.parentNode.classList.add("active");
-        } else {
-            console.log(window.location.href.split(window.location.host)[1]);
-        }
-    }, []);
-
     return (
-        <ul className="sidenav">
+        <ul className={`${styles.sidenav} ${sidenavIsOpen ? styles.active : ""}`}>
             <li>
                 <p onClick={developpeMenu}>Gettings started</p>
                 <ul>
                     <li>
-                        <Link to="/docs/gettings-started/get-code" rel="noopener noreferrer">Code recovery</Link>
+                        <Link to="/docs/gettings-started/code-recovery" rel="noopener noreferrer">Code recovery</Link>
                     </li>
                     <li>
                         <Link to="/docs/gettings-started/download-modules" rel="noopener noreferrer">Installing Node.js modules</Link>
@@ -47,7 +37,7 @@ export default function Sidenav() {
                     </li>
                 </ul>
             </li>
-            <a href="/server" rel="noopener noreferrer">Help</a>
+            <Link to="/server" rel="noopener noreferrer">Help</Link>
         </ul>
     );
 }

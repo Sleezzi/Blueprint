@@ -10,32 +10,29 @@
 body {
     background: var(--background);
     color: var(--color);
-    height: 100vh;
-    width: 100%;
-    margin: 0;
+}
+body[theme=light] {
+    --background: white;
+    --alt-background: #e9e9e9;
+    --color: black;
+    --alt-color: #555;
+}
+.root {
     font-family: "Kreon", serif;
     font-optical-sizing: auto;
     font-style: normal;
     transition: background .3s ease;
     overflow: hidden;
 }
-body.light {
-    --background: white;
-    --alt-background: #e9e9e9;
-    --color: black;
-    --alt-color: #555;
-    background: var(--background);
-}
 i {
     color: var(--alt-color);
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--a-color);
-    transition: color .5s ease, text-decoration .5s ease;
+    transition: color .5s ease;
 }
 a:hover {
-    text-decoration: underline;
     color: var(--alt-a-color);
 }
 .toggleTheme {
@@ -53,24 +50,21 @@ a:hover {
 .toggleTheme > span.material-symbols-outlined {
     color: var(--color);
 }
-#root > div {
+div.content {
     display: flex;
     height: calc(100% - 4rem);
     width: 100%;
 }
-pre:not(.small) {
+pre {
     background: black;
     color: white;
-    overflow: scroll hidden;
+    overflow: auto hidden;
     width: 100%;
     padding: .5rem;
+    height: unset;
 }
 pre.small {
-    background: black;
-    color: white;
-    overflow: scroll hidden;
     width: fit-content;
-    padding: .5rem;
 }
 .note, .warning { /* CSS Pour les notes */
     background: var(--alt-background);
@@ -99,6 +93,33 @@ body.light .note::before, body.light .warning::before {
 }
 .warning { /* CSS Pour les warns */
     border-left: 0.3rem solid red;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container p {
+    margin: 0;
+}
+
+div.nav {
+    width: 100%;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+div.nav > a {
+    border: var(--alt-background) solid 2px;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: var(--color);
+    transition: border .25s ease;
+    text-decoration: none;
+}
+div.nav > a:hover {
+    border: var(--a-color) solid 2px;
 }
 
 @media screen and (max-width: 1195px) { /* For mobiles */

@@ -7,6 +7,7 @@ import Server from "./pages/Server";
 import Thanks from "./pages/Thanks";
 
 import Docs from "./pages/Docs";
+import Docs_Index from "./pages/docs/Index";
 import Docs_GettingStarted_CodeRecovery from "./pages/docs/getting-started/code-recovery";
 import Docs_GettingStarted_InstallingNodeJsModules from "./pages/docs/getting-started/installing-node-js-modules";
 import Docs_GettingStarted_ConfigJson from "./pages/docs/getting-started/config-json";
@@ -22,43 +23,45 @@ function App() {
         },
         {
             path: "/",
-            element: <Index />
+            element: <Index />,
         },
         {
-            path: "/invite",
+            path: "invite",
             element: <Invite />
         },
         {
-            path: "/server",
+            path: "server",
             element: <Server />
         },
         {
-            path: "/thanks",
+            path: "thanks",
             element: <Thanks />
         },
         {
-            path: "/docs",
-            element: <Docs />
-        },
-        {
-            path: "/docs/*",
-            element: <Docs />
-        },
-        {
-            path: "/docs/gettings-started/get-code",
-            element: <Docs_GettingStarted_CodeRecovery />
-        },
-        {
-            path: "/docs/gettings-started/download-modules",
-            element: <Docs_GettingStarted_InstallingNodeJsModules />
-        },
-        {
-            path: "/docs/gettings-started/config.json",
-            element: <Docs_GettingStarted_ConfigJson />
-        },
-        {
-            path: "/docs/gettings-started/launch",
-            element: <Docs_GettingStarted_Launch />
+            path: "docs",
+            element: <Docs />,
+            children: [
+                {
+                    path: "",
+                    element: <Docs_Index />
+                },
+                {
+                    path: "gettings-started/code-recovery",
+                    element: <Docs_GettingStarted_CodeRecovery />
+                },
+                {
+                    path: "gettings-started/download-modules",
+                    element: <Docs_GettingStarted_InstallingNodeJsModules />
+                },
+                {
+                    path: "gettings-started/config.json",
+                    element: <Docs_GettingStarted_ConfigJson />
+                },
+                {
+                    path: "gettings-started/launch",
+                    element: <Docs_GettingStarted_Launch />
+                }
+            ]
         }
     ]);
 

@@ -1,45 +1,27 @@
-import { useEffect, useState } from "react";
-import "../../cdn/css/docs/header.css";
+import styles from "../../cdn/css/docs/header.module.css";
 
 import { Link } from "react-router-dom";
 
-export default function Header() {
-    const [sidenavIsOpen, setSidenavIsOpen] = useState(false);
-    const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-
-    useEffect(() => {
-        document.body.className = theme;
-        document.querySelector(".toggleTheme > span").innerText = `${theme}_mode`;
-        localStorage.setItem("theme", theme);
-    }, [theme]);
+export default function Header({ sidenavIsOpen, setSidenavIsOpen, theme, setTheme }) {
+    const toggleSidenav = () => {
+        if (sidenavIsOpen) {
+            setSidenavIsOpen(false);
+        } else {
+            setSidenavIsOpen(true);
+        }
+    }
 
     const toggleTheme = () => {
-        if (localStorage.getItem("theme") === "light") {
+        if (theme === "light") {
             setTheme("dark");
         } else {
             setTheme("light");
         }
     }
 
-    useEffect(() => {
-        if (sidenavIsOpen) {
-            document.querySelector(".sidenav").classList.add("active");
-        } else {
-            document.querySelector(".sidenav").classList.remove("active");
-        }
-    }, [sidenavIsOpen]);
-
-    const toggleSidenav = () => {
-        if (sidenavIsOpen) {
-            setSidenavIsOpen(false)
-        } else {
-            setSidenavIsOpen(true)
-        }
-    }
-
     return (
         <header>
-            <div onClick={toggleSidenav} className="sidenavOpener">
+            <div onClick={toggleSidenav} className={styles.sidenavOpener}>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -47,8 +29,8 @@ export default function Header() {
             <Link to="/docs/">
                 <img src="/cdn/img/Logo/RedEye_Rounded.png" alt="logo"></img>RedEye - Docs
             </Link>
-            <button onClick={toggleTheme} className="toggleTheme" title="Switch from dark mode to light mode">
-                <span className="material-symbols-outlined">dark_mode</span>
+            <button onClick={toggleTheme} className={styles.toggleTheme} title="Switch from dark mode to light mode">
+                <span className="material-symbols-outlined">{`${theme}_mode`}</span>
             </button>
         </header>
     );

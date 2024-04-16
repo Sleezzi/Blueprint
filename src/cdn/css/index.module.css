@@ -1,8 +1,6 @@
-:root {
+.root {
     --background: #333;
     --color: #FFF;
-}
-body {
     background: var(--background);
     color: var(--color);
 }
@@ -25,14 +23,7 @@ section.pres img {
 section:nth-child(even) {
     background: #00000085;
 }
-a {
-    color: white;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-a#add, a#manage, a#docs {
+a#add, a#docs {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +84,6 @@ a#add:hover::before, a#docs:hover::before {
 a#add:hover::after, a#docs:hover::after {
     height: calc(auto + 5px);
 }
-
 section.space img, section.space canvas, section.space a {
     width: 45%;
     height: auto;
@@ -124,6 +114,10 @@ section.space h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer {
+    background: var(--background);
+    overflow: auto hidden;
 }
 footer > h5 {
     display: flex;
@@ -163,10 +157,3 @@ a#bot-hosting::before {
 a#github::before {
     background: url(https://github.githubassets.com/favicons/favicon-dark.png) center/cover no-repeat;
 }
-/* A mettre dans un truc qui ne prend en compte que les petits écran pour ne 
-pas bloquer le aria-label
-footer {
-    overflow: scroll;
-}
-
-*/

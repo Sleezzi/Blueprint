@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+video[src="/cdn/img/blueink.mp4"] {
+    height: 100%;
+    width: 100%;
+    clip-path: url(#text-overlay);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+svg {
+    font-size: 20vh;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+h2.pageNotFound {
+    margin: 15% 0 0 0;
+}
+a.getBack {
+    position: relative;
+    z-index: 2;
+}

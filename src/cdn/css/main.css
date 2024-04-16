@@ -1,4 +1,4 @@
-body, #root {
+body, body > div, body > div > div {
     margin: 0;
     height: 100vh;
     width: 100%;
@@ -9,7 +9,6 @@ h1, h2 {
     font-family: 'Oswald', sans-serif;
 }
 a {
-    text-decoration: none;
     color: unset;
 }
 header {
@@ -33,7 +32,6 @@ footer {
     align-items: center;
     z-index: 99;
     margin: 2% 0 0 0;
-    background: #00000026;
     position: fixed;
     bottom: 0;
     width: 100%;
