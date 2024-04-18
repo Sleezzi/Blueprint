@@ -8,7 +8,6 @@ import styles from "../cdn/css/docs/docs_index.module.css";
 function Docs() {
     const [sidenavIsOpen, setSidenavIsOpen] = useState(false);
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-    console.log(styles);
     useEffect(() => {
         try {
             document.body.setAttribute("theme", theme);

@@ -22,6 +22,11 @@ export default function Index() {
         }
         handleScroll();
         document.querySelector("body > div > div").addEventListener('scroll', handleScroll);
+        const params = new URLSearchParams(window.location.search);
+        if (params.get("redirect")) {
+            console.log(true);
+            window.location.href = decodeURIComponent(params.get("redirect"));
+        }
     }, []);
     return (
     <div className={styles.root}>

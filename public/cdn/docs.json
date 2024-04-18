@@ -1,12 +1,21 @@
 {
     "Gettings started": {
-        "Code recovery": "/docs/gettings-started/get-code",
-        "Installing Node.js modules": "/docs/gettings-started/download-modules",
-        "config.js": "/docs/gettings-started/config.json",
-        "Launch": "/docs/gettings-started/launch"
+        "Code recovery": "code-recovery",
+        "Installing Node.js modules": "download-modules",
+        "config.js": "config.json",
+        "Launch": "launch"
     },
-    "How it's work": {
-        "Folder/File Tree": "/docs/how-it's-work/folder-file-tree"
+    "Commands": {
+        "help": "help",
+        "ban": "ban",
+        "banlist": "banlist"
     },
-    "Help": "/server"
+    "Modules": {
+        "Auto moderate message": "auto-moderate-message",
+        "Auto role": "auto-role",
+        "Welcome message": "welcome-message",
+        "Goodbye message": "goodbye-message",
+        "Log": "log"
+    },
+    "Help": "server"
 }
