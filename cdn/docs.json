@@ -8,7 +8,12 @@
     "Commands": {
         "help": "help",
         "ban": "ban",
-        "banlist": "banlist"
+        "banlist": "banlist",
+        "add banned word": "add-banned-word",
+        "remove banned word": "remove-banned-word",
+        "commands": "commands",
+        "clean": "clean",
+        "clear": "clear"
     },
     "Modules": {
         "Auto moderate message": "auto-moderate-message",
