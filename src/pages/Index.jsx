@@ -52,8 +52,8 @@ export default function Index() {
             <img src="https://koya.gg/_next/image?url=%2Fassets%2Fimg%2Ffeatures%2Fgreetings.png&w=1920&q=100" alt=""></img>
         </section>
         <section className={`fade-up ${styles.space}`} id="4">
-            <img src="/cdn/img/redeyes_welcom_image.png" id="welcome" alt=""></img>
-            <h3>Welcome a new member with welcome images sent to the room you want</h3>
+            <img src="/cdn/img/redeyes_welcome_image.png" id="welcome" alt=""></img>
+            <h3>Welcome a new member with welcome images sent to the channel you want</h3>
         </section>
         <section className={`fade-up ${styles.space}`} id="5">
             <h3>Get member information (avatar, banner...) with intuitive and short commands</h3>

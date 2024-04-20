@@ -15,9 +15,15 @@ import Docs_GettingStarted_Launch from "./pages/docs/getting-started/launch";
 import Docs_Commands_Help from "./pages/docs/commands/help";
 import Docs_Commands_Ban from "./pages/docs/commands/ban";
 import Docs_Commands_Banlist from "./pages/docs/commands/banlist";
+import Docs_Commands_AddBannedWord from "./pages/docs/commands/addBannedWord";
+import Docs_Commands_RemoveBannedWord from "./pages/docs/commands/removeBannedWord";
+import Docs_Commands_Commands from "./pages/docs/commands/commands";
+import Docs_Commands_Clean from "./pages/docs/commands/clean";
+import Docs_Commands_Clear from "./pages/docs/commands/clear";
 
 import Docs_Modules_AutoModerateMessage from "./pages/docs/modules/auto-moderate-message";
 import Docs_Modules_Log from "./pages/docs/modules/log";
+import Docs_Modules_Autorole from "./pages/docs/modules/autorole";
 import Docs_Modules_WelcomeMessage from "./pages/docs/modules/welcome-message";
 import Docs_Modules_GoodbyeMessage from "./pages/docs/modules/goodbye-message";
 
@@ -50,9 +56,14 @@ function App() {
                 <Route path="commands/*" element={<Docs_Commands_Help/>} />
                 <Route path="commands/ban" element={<Docs_Commands_Ban/>} />
                 <Route path="commands/banlist" element={<Docs_Commands_Banlist/>} />
+                <Route path="commands/add-banned-word" element={<Docs_Commands_AddBannedWord/>} />
+                <Route path="commands/remove-banned-word" element={<Docs_Commands_RemoveBannedWord/>} />
+                <Route path="commands/commands" element={<Docs_Commands_Commands/>} />
+                <Route path="commands/clean" element={<Docs_Commands_Clean/>} />
+                <Route path="commands/clear" element={<Docs_Commands_Clear/>} />
 
                 <Route path="modules/*" element={<Docs_Modules_AutoModerateMessage/>} />
-                <Route path="modules/auto-role" element={<Docs_Modules_Log/>} />
+                <Route path="modules/auto-role" element={<Docs_Modules_Autorole/>} />
                 <Route path="modules/welcome-message" element={<Docs_Modules_WelcomeMessage/>} />
                 <Route path="modules/goodbye-message" element={<Docs_Modules_GoodbyeMessage/>} />
                 <Route path="modules/log" element={<Docs_Modules_Log/>} />

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sleezzi">
+    <meta property="og:image" content="/#/favicon.ico">
+    <title>RedEye - 404</title>
+    <link rel="stylesheet" href="/cdn/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background: #3D3951;
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+        }
+    </style>
+    <script>
+        console.log(window.location.href);
+        const href = window.location.href.split("/");
+        href.splice(0, 3);
+        href.unshift("/#/")
+        console.log(href);
+        window.location.href = `${href.join("")}`;
+    </script>
+</body>
+</html>

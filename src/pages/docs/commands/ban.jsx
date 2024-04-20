@@ -22,19 +22,19 @@ export default function Index() {
                     <tr>
                         <th scope="row">Member</th>
                         <td>The mention of the user that the bot must ban</td>
-                        <td><i className={styles.check}></i></td>
+                        <td><icon className={styles.check}></icon></td>
                         <td><i>@member</i></td>
                     </tr>
                     <tr>
                         <th scope="row">Duration</th>
                         <td>The duration of the ban</td>
-                        <td><i className={styles.check}></i></td>
+                        <td><icon className={styles.check}></icon></td>
                         <td><i>Number</i></td>
                     </tr>
                     <tr>
                         <th scope="row">Reason</th>
                         <td>The reason for the ban</td>
-                        <td><i className={styles.cross}></i></td>
+                        <td><icon className={styles.cross}></icon></td>
                         <td>-</td>
                     </tr>
                 </tbody>

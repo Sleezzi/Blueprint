@@ -12,7 +12,7 @@ export default function Index() {
             <li>Game</li>
             <li>Misc</li>
             <div className={`${styles.permissionsContainer} ${styles.open}`}>
-                Anyone can use this command: it does not require any special authorization. <i className={styles.check}></i>
+                Anyone can use this command: it does not require any special authorization. <icon className={styles.check}></icon>
             </div>
             <h2>Options:</h2>
             <table>
@@ -28,7 +28,7 @@ export default function Index() {
                     <tr>
                         <th scope="row">Command</th>
                         <td>The name of the command you want help for</td>
-                        <td><i className={styles.cross}></i></td>
+                        <td><icon className={styles.cross}></icon></td>
                         <td>-</td>
                     </tr>
                 </tbody>

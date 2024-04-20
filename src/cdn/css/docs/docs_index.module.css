@@ -108,11 +108,11 @@ body.light .note::before, body.light .warning::before {
 .container p {
     margin: 0;
 }
-i.check, i.cross {
+icon.check, icon.cross {
     color: transparent;
     font-size: 0;
 }
-i.check::after, i.cross::after {
+icon.check::after, icon.cross::after {
     content: "";
     display: inline-flex;
     height: 1.25rem;
@@ -120,10 +120,10 @@ i.check::after, i.cross::after {
     position: relative;
     top: calc(1.25rem / 4);
 }
-i.check::after {
+icon.check::after {
     background: url(../../../../public/cdn/img/icon/check.gif) no-repeat center/cover;
 }
-i.cross::after {
+icon.cross::after {
     background: url(../../../../public/cdn/img/icon/cross.gif) no-repeat center/cover;
 }
 div.nav {
