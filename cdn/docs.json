@@ -20,7 +20,9 @@
         "Auto role": "auto-role",
         "Welcome message": "welcome-message",
         "Goodbye message": "goodbye-message",
-        "Log": "log"
+        "Log": "log",
+        "Levels": "levels",
+        "Block Link": "block-link"
     },
     "Help": "server"
 }
