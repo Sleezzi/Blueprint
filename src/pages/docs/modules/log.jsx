@@ -1,10 +1,10 @@
 import styles from "../../../cdn/css/docs/docs_index.module.css";
 
-export default function GetRecovery() {
+export default function Log() {
     return (
         <>
             <h1>RedEye - Modules: Log</h1>
-            <p>Sends a message like <a href="https://discordjs.guide/popular-topics/embeds.html#embed-preview" target="_blank" rel="noopener noreferrer">Embed</a> in a channel to create a history of server actions.</p>
+            <p>Sends an <a href="https://discordjs.guide/popular-topics/embeds.html#embed-preview" target="_blank" rel="noopener noreferrer">Embed</a> in a channel to create a history of server actions.</p>
             <h2>List of supported events</h2>
             <ul>
                 <li>
@@ -32,7 +32,7 @@ export default function GetRecovery() {
                     Leave member <i>=&gt; a member leaves the server</i>
                 </li>
             </ul>
-            <p>To activate this module, you must issue the command <b>!modules</b>, then select <img src="/cdn/img/emote/robot.svg" alt="emote" /> and finally by sending the message starting with the mention of the channel</p>
+            <p>To activate this module, you must issue the command <b>!modules</b>, then select <b>📜 log</b> and finally by sending the message starting with the mention of the channel</p>
             <div className={styles.note}>
                 To desactivate the module, do not mention a channel.
             </div>

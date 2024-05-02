@@ -1,31 +1,36 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import NotFound from "./pages/404";
-import Index from "./pages/Index";
-import Invite from "./pages/Invite";
-import Server from "./pages/Server";
 
-import Docs from "./pages/Docs";
-import Docs_Index from "./pages/docs/Index";
-import Docs_GettingStarted_CodeRecovery from "./pages/docs/getting-started/code-recovery";
-import Docs_GettingStarted_InstallingNodeJsModules from "./pages/docs/getting-started/installing-node-js-modules";
-import Docs_GettingStarted_ConfigJson from "./pages/docs/getting-started/config-json";
-import Docs_GettingStarted_Launch from "./pages/docs/getting-started/launch";
-
-import Docs_Commands_Help from "./pages/docs/commands/help";
-import Docs_Commands_Ban from "./pages/docs/commands/ban";
-import Docs_Commands_Banlist from "./pages/docs/commands/banlist";
-import Docs_Commands_AddBannedWord from "./pages/docs/commands/addBannedWord";
-import Docs_Commands_RemoveBannedWord from "./pages/docs/commands/removeBannedWord";
-import Docs_Commands_Commands from "./pages/docs/commands/commands";
-import Docs_Commands_Clean from "./pages/docs/commands/clean";
-import Docs_Commands_Clear from "./pages/docs/commands/clear";
-
-import Docs_Modules_AutoModerateMessage from "./pages/docs/modules/auto-moderate-message";
-import Docs_Modules_Log from "./pages/docs/modules/log";
-import Docs_Modules_Autorole from "./pages/docs/modules/autorole";
-import Docs_Modules_WelcomeMessage from "./pages/docs/modules/welcome-message";
-import Docs_Modules_GoodbyeMessage from "./pages/docs/modules/goodbye-message";
+import {
+    NotFound,
+    Index,
+    Invite,
+    Server,
+    
+    Docs,
+    Docs_Index,
+    Docs_GettingStarted_CodeRecovery,
+    Docs_GettingStarted_InstallingNodeJsModules,
+    Docs_GettingStarted_ConfigJson,
+    Docs_GettingStarted_Launch,
+    
+    Docs_Commands_Help,
+    Docs_Commands_Ban,
+    Docs_Commands_Banlist,
+    Docs_Commands_AddBannedWord,
+    Docs_Commands_RemoveBannedWord,
+    Docs_Commands_Commands,
+    Docs_Commands_Clean,
+    Docs_Commands_Clear,
+    
+    Docs_Modules_AutoModerateMessage,
+    Docs_Modules_Log,
+    Docs_Modules_Autorole,
+    Docs_Modules_WelcomeMessage,
+    Docs_Modules_GoodbyeMessage,
+    Docs_Modules_Levels,
+    Docs_Modules_BlockLink,
+} from "./Pages";
 
 import "./cdn/css/main.css";
 
@@ -67,6 +72,8 @@ function App() {
                 <Route path="modules/welcome-message" element={<Docs_Modules_WelcomeMessage/>} />
                 <Route path="modules/goodbye-message" element={<Docs_Modules_GoodbyeMessage/>} />
                 <Route path="modules/log" element={<Docs_Modules_Log/>} />
+                <Route path="modules/levels" element={<Docs_Modules_Levels/>} />
+                <Route path="modules/block-link" element={<Docs_Modules_BlockLink/>} />
             </Route>
         </Routes>
     );

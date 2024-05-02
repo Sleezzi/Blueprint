@@ -24,6 +24,9 @@ function Docs() {
                 <Sidnav sidenavIsOpen={sidenavIsOpen} />
                 <main>
                     <div>
+                        <div className={styles.warning}>
+                            The <b>!modules</b> command is very slow to load, it takes a few seconds to respond. We are currently working to resolve this issue
+                        </div>
                         <Outlet />
                     </div>
                 </main>

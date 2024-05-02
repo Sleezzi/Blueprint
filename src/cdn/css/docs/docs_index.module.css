@@ -173,7 +173,7 @@ main {
     overflow: hidden auto;
 }
 main > div {
-    height: 100%;
+    height: calc(100% + 15rem);
     width: 90%;
 }
 
