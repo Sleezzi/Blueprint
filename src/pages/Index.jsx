@@ -44,12 +44,10 @@ export default function Index() {
             <img src="/cdn/img/redeyes_level_image.png" alt="" id="level"></img>
         </section>
         <section className={`fade-up ${styles.space}`} id="2">
-            <img src="https://koya.gg/_next/image?url=%2Fassets%2Fimg%2Ffeatures%2Fgreetings.png&w=1920&q=100" alt=""></img>
             <h3>Perform complex moderation tasks easily with RedEye bot's numerous commands</h3>
         </section>
         <section className={`fade-up ${styles.space}`} id="3">
             <h3>Search Roblox, GitHub and +15 other platforms in just a few clicks</h3>
-            <img src="https://koya.gg/_next/image?url=%2Fassets%2Fimg%2Ffeatures%2Fgreetings.png&w=1920&q=100" alt=""></img>
         </section>
         <section className={`fade-up ${styles.space}`} id="4">
             <img src="/cdn/img/redeyes_welcome_image.png" id="welcome" alt=""></img>
@@ -57,10 +55,8 @@ export default function Index() {
         </section>
         <section className={`fade-up ${styles.space}`} id="5">
             <h3>Get member information (avatar, banner...) with intuitive and short commands</h3>
-            <img src="https://koya.gg/_next/image?url=%2Fassets%2Fimg%2Ffeatures%2Fgreetings.png&w=1920&q=100" alt=""></img>
         </section>
         <section className={`fade-up ${styles.space}`} id="6">
-            <img src="https://koya.gg/_next/image?url=%2Fassets%2Fimg%2Ffeatures%2Fgreetings.png&w=1920&q=100" alt=""></img>
             <h3>Play mini games with your members</h3>
         </section>
         <section className={`fade-up ${styles.space}`} id="7">

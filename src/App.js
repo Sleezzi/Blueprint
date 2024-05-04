@@ -30,6 +30,7 @@ import {
     Docs_Modules_GoodbyeMessage,
     Docs_Modules_Levels,
     Docs_Modules_BlockLink,
+    Docs_Commands_Modules,
 } from "./Pages";
 
 import "./cdn/css/main.css";
@@ -66,6 +67,7 @@ function App() {
                 <Route path="commands/commands" element={<Docs_Commands_Commands/>} />
                 <Route path="commands/clean" element={<Docs_Commands_Clean/>} />
                 <Route path="commands/clear" element={<Docs_Commands_Clear/>} />
+                <Route path="commands/modules" element={<Docs_Commands_Modules/>} />
 
                 <Route path="modules/*" element={<Docs_Modules_AutoModerateMessage/>} />
                 <Route path="modules/auto-role" element={<Docs_Modules_Autorole/>} />

@@ -1,9 +1,11 @@
 {
-    "Gettings started": {
-        "Code recovery": "code-recovery",
-        "Installing Node.js modules": "download-modules",
-        "config.js": "config.json",
-        "Launch": "launch"
+    "Dev": {
+        "Gettings started": {
+            "Code recovery": "dev/code-recovery",
+            "Installing Node.js modules": "dev/download-modules",
+            "config.js": "dev/config.json",
+            "Launch": "dev/launch"
+        }
     },
     "Commands": {
         "help": "help",
@@ -13,7 +15,8 @@
         "remove banned word": "remove-banned-word",
         "commands": "commands",
         "clean": "clean",
-        "clear": "clear"
+        "clear": "clear",
+        "modules": "modules"
     },
     "Modules": {
         "Auto moderate message": "auto-moderate-message",

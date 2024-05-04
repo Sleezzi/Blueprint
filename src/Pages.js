@@ -5,10 +5,10 @@ import ServerModule from "./pages/Server";
 
 import DocsModule from "./pages/Docs";
 import Docs_IndexModule from "./pages/docs/Index";
-import Docs_GettingStarted_CodeRecoveryModule from "./pages/docs/getting-started/code-recovery";
-import Docs_GettingStarted_InstallingNodeJsModulesModule from "./pages/docs/getting-started/installing-node-js-modules";
-import Docs_GettingStarted_ConfigJsonModule from "./pages/docs/getting-started/config-json";
-import Docs_GettingStarted_LaunchModule from "./pages/docs/getting-started/launch";
+import Docs_GettingStarted_CodeRecoveryModule from "./pages/docs/dev/getting-started/code-recovery";
+import Docs_GettingStarted_InstallingNodeJsModulesModule from "./pages/docs/dev/getting-started/installing-node-js-modules";
+import Docs_GettingStarted_ConfigJsonModule from "./pages/docs/dev/getting-started/config-json";
+import Docs_GettingStarted_LaunchModule from "./pages/docs/dev/getting-started/launch";
 
 import Docs_Commands_HelpModule from "./pages/docs/commands/help";
 import Docs_Commands_BanModule from "./pages/docs/commands/ban";
@@ -18,6 +18,7 @@ import Docs_Commands_RemoveBannedWordModule from "./pages/docs/commands/removeBa
 import Docs_Commands_CommandsModule from "./pages/docs/commands/commands";
 import Docs_Commands_CleanModule from "./pages/docs/commands/clean";
 import Docs_Commands_ClearModule from "./pages/docs/commands/clear";
+import Docs_Commands_ModulesModule from "./pages/docs/commands/modules";
 
 import Docs_Modules_AutoModerateMessageModule from "./pages/docs/modules/auto-moderate-message";
 import Docs_Modules_LogModule from "./pages/docs/modules/log";
@@ -48,6 +49,7 @@ export const Docs_Commands_RemoveBannedWord = Docs_Commands_RemoveBannedWordModu
 export const Docs_Commands_Commands = Docs_Commands_CommandsModule;
 export const Docs_Commands_Clean = Docs_Commands_CleanModule;
 export const Docs_Commands_Clear = Docs_Commands_ClearModule;
+export const Docs_Commands_Modules = Docs_Commands_ModulesModule;
 
 export const Docs_Modules_AutoModerateMessage = Docs_Modules_AutoModerateMessageModule;
 export const Docs_Modules_Log = Docs_Modules_LogModule;

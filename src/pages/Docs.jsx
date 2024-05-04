@@ -16,7 +16,7 @@ function Docs() {
             console.error(err);
         }
     }, [theme]);
-
+    
     return (
         <div className={styles.root}>
             <Header sidenavIsOpen={sidenavIsOpen} setSidenavIsOpen={setSidenavIsOpen} theme={theme} setTheme={setTheme} />
@@ -25,7 +25,7 @@ function Docs() {
                 <main>
                     <div>
                         <div className={styles.warning}>
-                            The <b>!modules</b> command is very slow to load, it takes a few seconds to respond. We are currently working to resolve this issue
+                            The <b>!modules</b> command is very slow to load, it takes a few seconds to respond. The problem will be resolved in approximately {new Date(Date.now() / 100 - 1716644759959).getDate()} days.
                         </div>
                         <Outlet />
                     </div>

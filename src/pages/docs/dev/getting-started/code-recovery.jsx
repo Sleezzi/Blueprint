@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import styles from "../../../cdn/css/docs/docs_index.module.css";
+import styles from "../../../../cdn/css/docs/docs_index.module.css";
 
 export default function GetRecovery() {
     return (
