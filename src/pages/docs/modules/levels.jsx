@@ -15,6 +15,8 @@ export default function Levels() {
             </div>
             <h2>How to do</h2>
             <p>To activate this module, you must do the <b>!modules</b> command, selecting the <b>⭐ levels</b> module and clicking on activate.</p>
+            <h2>Here is an example response to the <i>!level</i> command</h2>
+            <img src="/cdn/img/redeyes_level_image.png" alt="Goodbye Aperçu Message" style={{width: "100%"}} />
         </>
     );
 }

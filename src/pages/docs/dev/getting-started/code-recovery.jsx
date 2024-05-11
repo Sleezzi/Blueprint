@@ -14,7 +14,7 @@ export default function GetRecovery() {
             <h2>Without Git</h2>
             <p><a href="https://github.com/Sleezzi/RedEye/archive/refs/heads/Bot.zip">Click here</a> to download the zip file</p>
             <div className={styles.nav}>
-                <Link rel="noopener noreferrer" to="/docs/gettings-started/download-modules">Next</Link>
+                <Link rel="noopener noreferrer" to="/docs/gettings-started/dev/download-modules">Next</Link>
             </div>
         </>
     );

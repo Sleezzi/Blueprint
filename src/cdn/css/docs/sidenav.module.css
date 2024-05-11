@@ -72,7 +72,6 @@
     .sidenav {
         position: absolute;
         left: -100%;
-        overflow-x: hidden;
         transition: left .5s ease;
     }
     .sidenav.active {

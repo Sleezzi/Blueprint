@@ -27,7 +27,7 @@ export default function Header({ sidenavIsOpen, setSidenavIsOpen, theme, setThem
                 <span></span>
             </div>
             <Link to="/docs/">
-                <img src="/cdn/img/Logo/RedEye_Rounded.png" alt="logo"></img>RedEye - Docs
+                <img src="/cdn/img/Logo/RedEye.png" alt="logo"></img>RedEye - Docs
             </Link>
             <button onClick={toggleTheme} className={styles.toggleTheme} title="Switch from dark mode to light mode">
                 <span className="material-symbols-outlined">{`${theme}_mode`}</span>

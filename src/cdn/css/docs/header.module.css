@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--alt-background);
+    background: var(--background);
     box-shadow: 0 0 .5rem 0 #00000075;
 }
 header .sidenavOpener {
@@ -37,6 +37,22 @@ header > button {
     margin: 1rem;
     background: transparent;
     border: transparent;
+}
+.toggleTheme {
+    cursor: pointer;
+    transition: background .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    color: var(--color);
+}
+.toggleTheme:hover, header a:hover, header button:hover {
+    background: #0000002F;
+}
+.toggleTheme > span.material-symbols-outlined {
+    color: var(--color);
 }
 
 @media screen and (max-width: 1195px) { /* For mobiles */

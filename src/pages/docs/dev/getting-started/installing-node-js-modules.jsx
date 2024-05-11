@@ -15,8 +15,8 @@ export default function InstallingNodeJsModules() {
                 We use <a href="https://firebase.google.com" target="_blank" rel="noreferrer">Firebase</a> to record user data (tickets, level, etc.), for this we need the <i>firebase-admin</i> module, if you choose something else for saving data you can uninstall it by doing <pre className={styles.small}>$ npm uninstall firebase-admin</pre>
             </div>
             <div className={styles.nav}>
-                <Link rel="noopener noreferrer" to="/docs/gettings-started/code-recovery">Previous</Link>
-                <Link rel="noopener noreferrer" to="/docs/gettings-started/config.json">Next</Link>
+                <Link rel="noopener noreferrer" to="/docs/gettings-started/dev/code-recovery">Previous</Link>
+                <Link rel="noopener noreferrer" to="/docs/gettings-started/dev/config.json">Next</Link>
             </div>
         </>
     );

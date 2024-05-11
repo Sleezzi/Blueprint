@@ -14,7 +14,7 @@ export default function Launch() {
             <div className={styles.note}>If you don't want to have to do the command constantly you can create a <i>start.bat</i> file with the command inside</div>
             <h3 style={{textAlign: "center"}}>Now you are good, your bot is running. You can now personalize the bot!</h3>
             <div className={styles.nav}>
-                <Link rel="noopener noreferrer" to="/docs/gettings-started/config.json">Previous</Link>
+                <Link rel="noopener noreferrer" to="/docs/gettings-started/dev/config.json">Previous</Link>
             </div>
         </>
     );

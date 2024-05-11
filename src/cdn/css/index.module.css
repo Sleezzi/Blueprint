@@ -3,6 +3,7 @@
     --color: #FFF;
     background: var(--background);
     color: var(--color);
+    overflow: hidden auto;
 }
 section {
     width: 100%;
@@ -42,7 +43,7 @@ a#add::before {
     width: 1rem;
     min-width: 25px;
     min-height: 25px;
-    background: url("../../../public/cdn/img/discord.svg") center/70% no-repeat;
+    background: url("../../../public/cdn/img/icon/discord.svg") center/70% no-repeat;
     transform: rotateY(0);
     transition: all 0.5s ease;
 }

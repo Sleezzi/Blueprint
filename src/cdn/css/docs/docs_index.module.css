@@ -35,21 +35,6 @@ a {
 a:hover {
     color: var(--alt-a-color);
 }
-.toggleTheme {
-    cursor: pointer;
-    transition: background .5s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.toggleTheme:hover, header a:hover {
-    background: #0000002F;
-}
-.toggleTheme > span.material-symbols-outlined {
-    color: var(--color);
-}
 div.content {
     display: flex;
     height: calc(100% - 4rem);
@@ -166,7 +151,6 @@ th, td {
 }
 
 main {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -175,6 +159,7 @@ main {
 main > div {
     height: calc(100% + 15rem);
     width: 90%;
+    margin: 0 0 1rem 0;
 }
 
 img[alt="emote"] {

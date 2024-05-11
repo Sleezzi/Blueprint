@@ -2,7 +2,7 @@ body, body > div, body > div > div {
     margin: 0;
     height: 100vh;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Inter', sans-serif;
 }
 h1, h2 {

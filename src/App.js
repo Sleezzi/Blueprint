@@ -55,9 +55,9 @@ function App() {
             <Route path="docs" element={<Docs/>}>
                 <Route path="" element={<Docs_Index/>} />
                 <Route path="gettings-started/*" element={<Docs_GettingStarted_CodeRecovery/>} />
-                <Route path="gettings-started/download-modules" element={<Docs_GettingStarted_InstallingNodeJsModules/>} />
-                <Route path="gettings-started/config.json" element={<Docs_GettingStarted_ConfigJson/>} />
-                <Route path="gettings-started/launch" element={<Docs_GettingStarted_Launch/>} />
+                <Route path="gettings-started/dev/download-modules" element={<Docs_GettingStarted_InstallingNodeJsModules/>} />
+                <Route path="gettings-started/dev/config.json" element={<Docs_GettingStarted_ConfigJson/>} />
+                <Route path="gettings-started/dev/launch" element={<Docs_GettingStarted_Launch/>} />
 
                 <Route path="commands/*" element={<Docs_Commands_Help/>} />
                 <Route path="commands/ban" element={<Docs_Commands_Ban/>} />
