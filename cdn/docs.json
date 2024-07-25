@@ -5,6 +5,9 @@
             "Installing Node.js modules": "dev/download-modules",
             "config.js": "dev/config.json",
             "Launch": "dev/launch"
+        },
+        "More": {
+            "Create command": "dev/create-command"
         }
     },
     "Commands": {
@@ -27,5 +30,6 @@
         "Levels": "levels",
         "Block Link": "block-link"
     },
-    "Help": "server"
+    "Help": "server",
+    "Get back": ""
 }
