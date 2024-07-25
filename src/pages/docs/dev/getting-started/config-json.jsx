@@ -7,9 +7,9 @@ export default function ConfigJson() {
     return (
         <>
             <h1>Config.json</h1>
-            <p>To make RedEye work, you need to create and complete a <i>config.js</i> file</p>
+            <p>To make RedEye work, you need to create and complete a <i>config.json</i> file</p>
             <p>This is what it should look like</p>
-            <CodeBlock language="json">
+            <CodeBlock plugins={["line-numbers"]} language="json">
         {`{
     "token": "Your bot's token", // The token can be found on [Discord App](https://discord.com/developers/applications)
     "prefix": "!", // The prefix of the bot, by default it is "!" but it can be changed

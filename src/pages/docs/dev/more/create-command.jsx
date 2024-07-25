@@ -23,25 +23,25 @@ const command: CommandPrefix = {
     }
 }
 module.exports = commandModule;`}</PrismCode>
-            <h2>Les commandes d'application</h2>
-            <p>Il existe plusieurs type de commande d'application, mais ici on ne parlera que des <i>ChatInputCommandInteraction</i></p>
-            <p>Pour créer et ajouter une nouvelle commande d'application il faut créer un fichier dans <i>/commands/slash</i></p>
-            <p>Voici ce que doit contenir le fichier</p>
+            <h2>Application commands</h2>
+            <p>There are several types of application commands, but here we will only talk about <i>ChatInputCommandInteraction</i></p>
+            <p>To create and add a new application command you must create a file in <i>/commands/slash</i></p>
+            <p>This is what the file should contain</p>
             <PrismCode plugins={["line-numbers"]} language="ts">{
 `import { EmbedBuilder, GuildMember, SlashCommandBuilder } from "discord.js";
 import { CommandSlash } from "../../interfacies";
 
 const commandExport: CommandSlash = {
-    data: new SlashCommandBuilder() // Nous allons utiliser la class SlashCommandBuilder pour faire la command, il y a de nombreuse options que nous n'avons pas mis, vous pouvez les retrouver [ici](https://discord.com/developers/docs/interactions/application-commands)
-    .setName("banlist") // Ici nous allons mettre le nom de la command
-    .setNameLocalizations({ // Ici nous allons mettre le nom de la command en plusieurs langue
-        "en-US": "banlist", // Le nom de la command en anglais
-        fr: "banliste" // Le nom de la commande en français
+    data: new SlashCommandBuilder() // We are going to use the SlashCommandBuilder class to make the command, there are many options that we have not included, you can find them [here](https://discord.com/developers/docs/interactions/application-commands)
+    .setName("banlist") // Here we will put the name of the command
+    .setNameLocalizations({ // Here we will put the name of the command in several languages
+        "en-US": "banlist", // The name of the command in English
+        fr: "banliste" // The name of the command in French
     })
     .setDescription("Returns the list of all banned members from the server") // Ici nous allons mettre la description de la command
-    .setDescriptionLocalizations({ // Ici nous allons mettre la desription de la command en plusieurs langue (voir [la liste des langues disponibles](https://discord.com/developers/docs/reference#locales))
-        "en-US": "Returns the list of all banned members from the server", // La description de la commande en anglais
-        fr: "Renvoie la liste de tout les membres bannie du serveur" // La description de la commande en français
+    .setDescriptionLocalizations({ // Here we will put the description of the command in several languages (see [the list of available languages](https://discord.com/developers/docs/reference#locales))
+        "en-US": "Returns the list of all banned members from the server", // The description of the command in English
+        fr: "Renvoie la liste de tout les membres bannie du serveur" // The description of the command in French
     }),
     async execute(interaction, client, reply) { // The function that will be executed
         try {
