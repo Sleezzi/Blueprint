@@ -31,6 +31,7 @@ import {
     Docs_Modules_Levels,
     Docs_Modules_BlockLink,
     Docs_Commands_Modules,
+    Docs_More_CreateCommand,
 } from "./Pages";
 
 import "./cdn/css/main.css";
@@ -58,6 +59,8 @@ function App() {
                 <Route path="gettings-started/dev/download-modules" element={<Docs_GettingStarted_InstallingNodeJsModules/>} />
                 <Route path="gettings-started/dev/config.json" element={<Docs_GettingStarted_ConfigJson/>} />
                 <Route path="gettings-started/dev/launch" element={<Docs_GettingStarted_Launch/>} />
+
+                <Route path="more/dev/create-command" element={<Docs_More_CreateCommand/>} />
 
                 <Route path="commands/*" element={<Docs_Commands_Help/>} />
                 <Route path="commands/ban" element={<Docs_Commands_Ban/>} />

@@ -40,23 +40,15 @@ div.content {
     height: calc(100% - 4rem);
     width: 100%;
 }
-pre {
-    background: black;
-    color: white;
-    overflow: auto hidden;
-    width: 100%;
-    padding: .5rem;
-    height: unset;
-}
-pre.small {
+pre.small, code.small {
     width: fit-content;
 }
-.note, .warning, .permissionsContainer { /* CSS Pour les notes */
+.note, .warning, .permissionsContainer {
     background: var(--alt-background);
     padding: 1rem;
     margin: 1rem 0;
 }
-.note::before, .warning::before, .permissionsContainer::before { /* L'icon lampe des notes */
+.note::before, .warning::before, .permissionsContainer::before {
     content: "";
     display: inline-flex;
     height: 1rem;
@@ -65,7 +57,7 @@ pre.small {
     bottom: 50%;
     margin: 0 .5rem 0 0
 }
-body.light .note::before, body.light .warning::before {
+body[theme="light"] .note::before, body[theme="light"] .warning::before {
     filter: invert();
 }
 .note::before {
@@ -77,10 +69,10 @@ body.light .note::before, body.light .warning::before {
 .permissionsContainer.open::before {
     background: url(../../../../public/cdn/img/icon/blue_shield.png) no-repeat center/cover;
 }
-.warning::before { /* L'icon des warns */
+.warning::before {
     background: url(../../../../public/cdn/img/icon/warning.png) no-repeat center/cover;
 }
-.warning, .permissionsContainer { /* CSS Pour les warns */
+.warning, .permissionsContainer {
     border-left: 0.3rem solid red;
 }
 .permissionsContainer::before {
@@ -157,14 +149,16 @@ main {
     overflow: hidden auto;
 }
 main > div {
-    height: calc(100% + 15rem);
     width: 90%;
     margin: 0 0 1rem 0;
 }
 
-img[alt="emote"] {
-    height: 1rem;
-    width: 1rem;
+img[alt*="emote"] {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.25rem;
+    width: 1.25rem;
 }
 b {
     font-size: 115%;

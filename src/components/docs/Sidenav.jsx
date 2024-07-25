@@ -16,8 +16,7 @@ function App({ sidenavIsOpen }) {
     useEffect(() => {
         fetch('/cdn/docs.json') // Assurez-vous de changer le chemin selon votre configuration
         .then(response => response.json())
-        .then(data => setNav(data))
-        .catch(error => console.error('Erreur de récupération des données:', error));
+        .then(data => setNav(data));
     }, []);
 
     const renderButton = (index, value, parent) => {

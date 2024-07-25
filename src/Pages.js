@@ -10,6 +10,8 @@ import Docs_GettingStarted_InstallingNodeJsModulesModule from "./pages/docs/dev/
 import Docs_GettingStarted_ConfigJsonModule from "./pages/docs/dev/getting-started/config-json";
 import Docs_GettingStarted_LaunchModule from "./pages/docs/dev/getting-started/launch";
 
+import Docs_More_CreateCommandModule from "./pages/docs/dev/more/create-command";
+
 import Docs_Commands_HelpModule from "./pages/docs/commands/help";
 import Docs_Commands_BanModule from "./pages/docs/commands/ban";
 import Docs_Commands_BanlistModule from "./pages/docs/commands/banlist";
@@ -40,6 +42,8 @@ export const Docs_GettingStarted_CodeRecovery = Docs_GettingStarted_CodeRecovery
 export const Docs_GettingStarted_InstallingNodeJsModules = Docs_GettingStarted_InstallingNodeJsModulesModule;
 export const Docs_GettingStarted_ConfigJson = Docs_GettingStarted_ConfigJsonModule;
 export const Docs_GettingStarted_Launch = Docs_GettingStarted_LaunchModule;
+
+export const Docs_More_CreateCommand = Docs_More_CreateCommandModule;
 
 export const Docs_Commands_Help = Docs_Commands_HelpModule;
 export const Docs_Commands_Ban = Docs_Commands_BanModule;

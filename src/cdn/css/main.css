@@ -41,30 +41,30 @@ footer > span {
     margin: 3px;
     text-align: center;
 }
-pre {
+pre, code {
     font-family: 'Source Code Pro', monospace;
     margin: 0;
 }
 main {
     display: flex;
 }
-::-webkit-scrollbar {
+body[theme="dark"] ::-webkit-scrollbar {
     width: 1vh;
     height: 1vh;
     background: #333;
     cursor: pointer;
 }
 /* Track */
-::-webkit-scrollbar-track {
+body[theme="dark"] ::-webkit-scrollbar-track {
     background: #00000000;
 }
 /* Handle */
-::-webkit-scrollbar-thumb {
+body[theme="dark"] ::-webkit-scrollbar-thumb {
     background: #111;
     border-radius: 5vh;
 }
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+body[theme="dark"] ::-webkit-scrollbar-thumb:hover {
     background: black;
 }
 aria-label {
