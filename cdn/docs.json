@@ -1,35 +1,35 @@
 {
-    "Dev": {
-        "Gettings started": {
-            "Code recovery": "dev/code-recovery",
-            "Installing Node.js modules": "dev/download-modules",
-            "config.js": "dev/config.json",
-            "Launch": "dev/launch"
-        },
-        "More": {
-            "Create command": "dev/create-command"
-        }
-    },
-    "Commands": {
-        "help": "help",
-        "ban": "ban",
-        "banlist": "banlist",
-        "add banned word": "add-banned-word",
-        "remove banned word": "remove-banned-word",
-        "commands": "commands",
-        "clean": "clean",
-        "clear": "clear",
-        "modules": "modules"
-    },
-    "Modules": {
-        "Auto moderate message": "auto-moderate-message",
-        "Auto role": "auto-role",
-        "Welcome message": "welcome-message",
-        "Goodbye message": "goodbye-message",
-        "Log": "log",
-        "Levels": "levels",
-        "Block Link": "block-link"
-    },
-    "Help": "server",
-    "Get back": ""
+	"Dev": {
+		"Gettings started": {
+			"Code recovery": "dev/code-recovery",
+			"Installing Node.js modules": "dev/download-modules",
+			"config.js": "dev/config.json",
+			"Launch": "dev/launch"
+		},
+		"More": {
+			"Create command": "dev/create-command"
+		}
+	},
+	"Commands": {
+		"help": "help",
+		"ban": "ban",
+		"banlist": "banlist",
+		"add banned word": "add-banned-word",
+		"remove banned word": "remove-banned-word",
+		"commands": "commands",
+		"clean": "clean",
+		"clear": "clear",
+		"modules": "modules"
+	},
+	"Modules": {
+		"Auto moderate message": "auto-moderate-message",
+		"Auto role": "auto-role",
+		"Welcome message": "welcome-message",
+		"Goodbye message": "goodbye-message",
+		"Log": "log",
+		"Levels": "levels",
+		"Block Link": "block-link"
+	},
+	"Help": "server",
+	"Get back": ""
 }
