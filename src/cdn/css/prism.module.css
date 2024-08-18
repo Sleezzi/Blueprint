@@ -1,23 +1,23 @@
 .code-toolbar > .toolbar {
-    position: relative;
+	position: relative;
 }
 
 .code-toolbar > .toolbar > button {
-    position: absolute;
-    color: var(--background);
-    background: var(--color);
-    z-index: 1;
-    top: 1rem;
-    right: 1rem;
-    opacity: 0;
-    border-radius: .25rem;
-    transition: opacity .5s ease, color .5s ease, background .5s ease;
+	position: absolute;
+	color: var(--background);
+	background: var(--color);
+	z-index: 1;
+	top: 1rem;
+	right: 1rem;
+	opacity: 0;
+	border-radius: .25rem;
+	transition: opacity .5s ease, color .5s ease, background .5s ease;
 }
 .code-toolbar:hover > .toolbar > button {
-    opacity: 1;
+	opacity: 1;
 }
 
 .code-toolbar > .toolbar > button:hover:not(:disabled) {
-    background: var(--a-color);
-    color: var(--color);
+	background: var(--a-color);
+	color: var(--color);
 }

@@ -1,165 +1,165 @@
 :root {
-    --background: #3D3951;
-    --alt-background: #4E4A6E;
-    --color: white;
-    --alt-color: #AAA;
-    --a-color: #ff0059;
-    --alt-a-color: #c80046;
-    --stroke-a-color: #c80046;
+	--background: #3D3951;
+	--alt-background: #4E4A6E;
+	--color: white;
+	--alt-color: #AAA;
+	--a-color: #ff0059;
+	--alt-a-color: #c80046;
+	--stroke-a-color: #c80046;
 }
 body {
-    background: var(--background);
-    color: var(--color);
+	background: var(--background);
+	color: var(--color);
 }
 body[theme=light] {
-    --background: white;
-    --alt-background: #e9e9e9;
-    --color: black;
-    --alt-color: #555;
+	--background: white;
+	--alt-background: #e9e9e9;
+	--color: black;
+	--alt-color: #555;
 }
 .root {
-    font-family: "Kreon", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    transition: background .3s ease;
-    overflow: hidden;
+	font-family: "Kreon", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	transition: background .3s ease;
+	overflow: hidden;
 }
 i {
-    color: var(--alt-color);
+	color: var(--alt-color);
 }
 a {
-    text-decoration: underline;
-    color: var(--a-color);
-    transition: color .5s ease;
+	text-decoration: underline;
+	color: var(--a-color);
+	transition: color .5s ease;
 }
 a:hover {
-    color: var(--alt-a-color);
+	color: var(--alt-a-color);
 }
 div.content {
-    display: flex;
-    height: calc(100% - 4rem);
-    width: 100%;
+	display: flex;
+	height: calc(100% - 4rem);
+	width: 100%;
 }
 pre.small, code.small {
-    width: fit-content;
+	width: fit-content;
 }
 .note, .warning, .permissionsContainer {
-    background: var(--alt-background);
-    padding: 1rem;
-    margin: 1rem 0;
+	background: var(--alt-background);
+	padding: 1rem;
+	margin: 1rem 0;
 }
 .note::before, .warning::before, .permissionsContainer::before {
-    content: "";
-    display: inline-flex;
-    height: 1rem;
-    width: 1rem;
-    position: relative;
-    bottom: 50%;
-    margin: 0 .5rem 0 0
+	content: "";
+	display: inline-flex;
+	height: 1rem;
+	width: 1rem;
+	position: relative;
+	bottom: 50%;
+	margin: 0 .5rem 0 0
 }
 body[theme="light"] .note::before, body[theme="light"] .warning::before {
-    filter: invert();
+	filter: invert();
 }
 .note::before {
-    background: url(../../../../public/cdn/img/icon/light-bulb.png) no-repeat center/cover;
+	background: url(../../../../public/cdn/img/icon/light-bulb.png) no-repeat center/cover;
 }
 .note, .permissionsContainer.open {
-    border-left: 0.3rem solid green;
+	border-left: 0.3rem solid green;
 }
 .permissionsContainer.open::before {
-    background: url(../../../../public/cdn/img/icon/blue_shield.png) no-repeat center/cover;
+	background: url(../../../../public/cdn/img/icon/blue_shield.png) no-repeat center/cover;
 }
 .warning::before {
-    background: url(../../../../public/cdn/img/icon/warning.png) no-repeat center/cover;
+	background: url(../../../../public/cdn/img/icon/warning.png) no-repeat center/cover;
 }
 .warning, .permissionsContainer {
-    border-left: 0.3rem solid red;
+	border-left: 0.3rem solid red;
 }
 .permissionsContainer::before {
-    background: url(../../../../public/cdn/img/icon/red_shield.png) no-repeat center/cover;
+	background: url(../../../../public/cdn/img/icon/red_shield.png) no-repeat center/cover;
 }
 .container {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 .container p {
-    margin: 0;
+	margin: 0;
 }
 icon.check, icon.cross {
-    color: transparent;
-    font-size: 0;
+	color: transparent;
+	font-size: 0;
 }
 icon.check::after, icon.cross::after {
-    content: "";
-    display: inline-flex;
-    height: 1.25rem;
-    width: 1.25rem;
-    position: relative;
-    top: calc(1.25rem / 4);
+	content: "";
+	display: inline-flex;
+	height: 1.25rem;
+	width: 1.25rem;
+	position: relative;
+	top: calc(1.25rem / 4);
 }
 icon.check::after {
-    background: url(../../../../public/cdn/img/icon/check.gif) no-repeat center/cover;
+	background: url(../../../../public/cdn/img/icon/check.gif) no-repeat center/cover;
 }
 icon.cross::after {
-    background: url(../../../../public/cdn/img/icon/cross.gif) no-repeat center/cover;
+	background: url(../../../../public/cdn/img/icon/cross.gif) no-repeat center/cover;
 }
 div.nav {
-    width: 100%;
-    margin: 1rem 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+	width: 100%;
+	margin: 1rem 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
 }
 div.nav > a {
-    border: var(--alt-background) solid 2px;
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-    color: var(--color);
-    transition: border .25s ease;
-    text-decoration: none;
+	border: var(--alt-background) solid 2px;
+	padding: .5rem 1rem;
+	border-radius: .5rem;
+	color: var(--color);
+	transition: border .25s ease;
+	text-decoration: none;
 }
 div.nav > a:hover {
-    border: var(--a-color) solid 2px;
+	border: var(--a-color) solid 2px;
 }
 
 @media screen and (max-width: 1195px) { /* For mobiles */
-    p {
-        width: auto;
-    }
+	p {
+		width: auto;
+	}
 }
 table {
-    border-collapse: collapse;
-    border: 2px solid #8c8c8c;
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
+	border-collapse: collapse;
+	border: 2px solid #8c8c8c;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
 }
 
 th, td {
-    border: 1px solid #a0a0a0;
-    padding: 8px 10px;
-    text-align: center;
+	border: 1px solid #a0a0a0;
+	padding: 8px 10px;
+	text-align: center;
 }
 
 main {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    overflow: hidden auto;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	overflow: hidden auto;
 }
 main > div {
-    width: 90%;
-    margin: 0 0 1rem 0;
+	width: 90%;
+	margin: 0 0 1rem 0;
 }
 
 img[alt*="emote"] {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 1.25rem;
-    width: 1.25rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 1.25rem;
+	width: 1.25rem;
 }
 b {
-    font-size: 115%;
+	font-size: 115%;
 }

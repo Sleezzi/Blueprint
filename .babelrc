@@ -1,23 +1,23 @@
 {
-    "plugins": [
-        [
-            "prismjs",
-            {
-                "languages": [
-                    "javascript",
-                    "json", 
-                    "typescript",
-                    "sell"
-                ],
-                "plugins": [
-                    "line-numbers",
-                    "show-language",
-                    "autolinker",
-                    "copy-to-clipboard"
-                ],
-                "theme": "okaidia",
-                "css": true
-            }
-        ]
-    ]
+	"plugins": [
+		[
+			"prismjs",
+			{
+				"languages": [
+					"javascript",
+					"json", 
+					"typescript",
+					"sell"
+				],
+				"plugins": [
+					"line-numbers",
+					"show-language",
+					"autolinker",
+					"copy-to-clipboard"
+				],
+				"theme": "okaidia",
+				"css": true
+			}
+		]
+	]
 }
