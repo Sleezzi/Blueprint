@@ -1,0 +1,26 @@
+{
+	"default": {
+		"noDescription": "This channel has no description",
+		"text": "Text",
+		"voice": "Voice",
+		"forum": "Forum",
+		"annoucement": "Announcement",
+		"stage": "Stage",
+		"unknow": "Unknow",
+		"title": "channel edited",
+		"dateOfCreation": "Date of creation",
+		"dateOfEdit": "Date of edit"
+	},
+	"fr": {
+		"noDescription": "Ce salon n'a pas de description",
+		"text": "Text",
+		"voice": "Voice",
+		"forum": "Forum",
+		"annoucement": "Annoncement",
+		"stage": "Stage",
+		"unknow": "Inconnu",
+		"title": "Salon modifié",
+		"dateOfCreation": "Date de création",
+		"dateOfEdit": "Date de modification"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"default": {
+		"title": "Message deleted",
+		"dateCreated": "Date the message was sent"
+	},
+	"fr": {
+		"title": "Message supprimé",
+		"dateCreated": "Date à la quelle le message a été envoyé"
+	}
+}

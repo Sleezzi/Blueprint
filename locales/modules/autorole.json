@@ -1,0 +1,20 @@
+{
+	"default": {
+		"_name": "autorole",
+		"_description": "Automatically assigns a role to the new member. Do not mention any role to deactivate this module",
+		"noRole": "You must mention the role that the bot must give to the new member",
+		"desactivated": "The autorole module has been disabled",
+		"invalideRole": "The bot cannot find this role",
+		"cantBeGiven": "The bot cannot give this role to the member",
+		"success": "The autorole has been successfully registered"
+	},
+	"fr": {
+		"_name": "auto-rôle",
+		"_description": "Donne un rôle automatiquement au nouveau membre du serveur. Ne mentionnes aucun role pour désactiver ce module.",
+		"noRole": "Tu dois mentionner un rôle a donner au nouveau membre du serveur",
+		"desactivated": "l'auto-rôle a été désactivé",
+		"invalideRole": "Le bot ne peut pas trouver ce rôle",
+		"cantBeGiven": "Le bot ne peut pas donner ce rôle au membre",
+		"success": "L'auto-rôle a été enregistré"
+	}
+}

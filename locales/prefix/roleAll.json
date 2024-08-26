@@ -1,0 +1,20 @@
+{
+	"default": {
+		"userMissingPerm": "you do not have the necessary permissions to use this command",
+		"invalidRole": "I can't give this role",
+		"titleGive": "Role given",
+		"titleRemove": "Role removed",
+		"givenSuccess1": "The bot added",
+		"removedSuccess1": "The bot removed the role",
+		"success2": "times"
+	},
+	"fr": {
+		"userMissingPerm": "vous n'avez pas les permissions nécessaire pour utiliser cette commande",
+		"invalidRole": "Je ne peux pas donner ce rôle",
+		"titleGive": "Role donné",
+		"titleRemove": "Role retiré",
+		"givenSuccess1": "Le bot a ajouté",
+		"removedSuccess1": "Le bot a retirer",
+		"success2": "fois le role"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"default": {
+		"noMessage": "Unable to find the messsage",
+		"userMissingPerm": "You do not have permission to delete messages",
+		"botMissingPerm": "I can't delete this message",
+		"success": "Message deleted"
+	},
+	"fr": {
+		"noMessage": "Impossible de trouver le message",
+		"userMissingPerm": "Tu n'as pas la permission de supprimer des messages",
+		"botMissingPerm": "Je ne peux pas supprimer ce message",
+		"success": "Message supprimé"
+	}
+}

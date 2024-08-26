@@ -1,0 +1,12 @@
+{
+	"default": {
+		"_description": "Returns the list of all banned members from the server",
+		"title": "Ban list",
+		"total": "Total banned member"
+	},
+	"fr": {
+		"_description": "Renvoie la liste de tous les membres bannis du serveur",
+		"title": "Liste de membre banni",
+		"total": "Total de membre banni"
+	}
+}

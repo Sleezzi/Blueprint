@@ -1,0 +1,12 @@
+{
+	"default": {
+		"wait": "Please wait",
+		"disabled": "The administrators of this server have disabled this command",
+		"newCommand": "New command"
+	},
+	"fr": {
+		"wait": "Veuillez attendre",
+		"disabled": "L'administateur de ce serveur a désactiver cette commande",
+		"newCommand": "Nouvelle commande"
+	}
+}

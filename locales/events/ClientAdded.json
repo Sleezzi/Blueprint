@@ -1,0 +1,8 @@
+{
+	"default": {
+		"noAdmin": "The permission `Administrator` is missing. Re-add the bot with the correct permissions.\nhttps://redeye.sleezzi.fr"
+	},
+	"fr": {
+		"noAdmin": "Le bot doit avoir la permission `Administrateur` pour fonctionner correctement. Réajouter le bot avec les bonnes permissions.\nhttps://redeye.sleezzi.fr"
+	}
+}

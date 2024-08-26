@@ -1,0 +1,12 @@
+{
+	"default": {
+		"title": "Role removed",
+		"any": "None",
+		"dateOfCreation": "Date of creation"
+	},
+	"fr": {
+		"title": "Role supprimé",
+		"any": "Aucune",
+		"dateOfCreation": "Date de création"
+	}
+}

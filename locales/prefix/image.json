@@ -1,0 +1,16 @@
+{
+	"default": {
+		"_description": "Send a photo on a specific theme (may not work properly)",
+		"_model": "image **`the theme of the image`**",
+		"success": "We found that with “UNSPLASH”, is that what you wanted?",
+		"notFound": "Unable to find an image on this topic",
+		"error": "An error occurred while retrieving the image"
+	},
+	"fr": {
+		"_description": "Envoie une photo sur un thème spécifique (peut ne pas fonctionner correctement)",
+		"_model": "image **`le thème de l'image`**",
+		"success": "Nous avons trouver ça sur **UNSPLASH**, c'est ce que tu voulais ?",
+		"notFound": "Impossible de trouver une image dans ce thème",
+		"error": "Une erreur s'est produite lors de la réception de l'image"
+	}
+}

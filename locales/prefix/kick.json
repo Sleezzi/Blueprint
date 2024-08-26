@@ -1,0 +1,20 @@
+{
+	"default": {
+		"noPerm": "You cannot kick a member from the server",
+		"invalidMention": "Please mention a valid member",
+		"yourself": "You cannot ban yourself from the server",
+		"botCant": "I can't kick this member",
+		"noReason": "No reason specified",
+		"kickBy": "kick by",
+		"title": "Kick"
+	},
+	"fr": {
+		"noPerm": "Tu n'as pas la permission d'expulser des membres de ce serveur",
+		"invalidMention": "Merci de mentionner un membre valide",
+		"yourself": "Tu ne peux pas t'expulser toi-même du serveur",
+		"botCant": "Je ne peux pas expulser ce membre",
+		"noReason": "Pas de raison spécifié",
+		"kickBy": "expulser par ",
+		"title": "Expulsion"
+	}
+}

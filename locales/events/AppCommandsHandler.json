@@ -1,0 +1,34 @@
+{
+	"default": {
+		"error": "There was an error while executing this command",
+		"wait": "Please wait while RedEye",
+		"loading": [
+			"hack the FBI database",
+			"fixes the universe's problems",
+			"resolves the P ≟ NP issue",
+			"tracks down the criminals",
+			"find a cure that cures all diseases"
+		],
+		"disable": "The administrators of this server have disabled this command",
+		"errorReply": [
+			"The bot feels tired today, doesn't blame him.",
+			"Mistakes happen to everyone"
+		]
+	},
+	"fr": {
+		"error": "Une erreur s'est produite durant l'execution de cette commande",
+		"wait": "Veuillez attendre que RedEye",
+		"loading": [
+			"hack la base de données du FBI",
+			"règle les problèmes de l'univers",
+			"résolve le problème P ≟ NP",
+			"arrête les criminels",
+			"trouve un médicament contre la bêtise"
+		],
+		"disable": "L'administrateur de ce serveur a désactivé cette commande",
+		"errorReply": [
+			"Le bot ne se sent pas très bien aujourd'huin ne le blame pas",
+			"Les erreurs ça arrive a tout le monde"
+		]
+	}
+}

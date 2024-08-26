@@ -1,0 +1,24 @@
+{
+	"default": {
+		"title": "Server Information",
+		"serverName": "Server name",
+		"serverDescription": "Server description",
+		"serverID": "ID",
+		"serverOwner": "Owner",
+		"serverOnlineMember": "Online Member",
+		"serverOnlineMembers": "Online Members",
+		"serverMembersSince": "You have been a member since",
+		"serverCreatedAt": "Server created at"
+	},
+	"fr": {
+		"title": "Information sur le serveur ",
+		"serverName": "Nom du serveur ",
+		"serverDescription": "Description du serveur ",
+		"serverID": "ID ",
+		"serverOwner": "Propriétaire du serveur ",
+		"serverOnlineMember": "Membre en ligne ",
+		"serverOnlineMembers": "Membres en ligne ",
+		"serverMembersSince": "Tu es membre depuis ",
+		"serverCreatedAt": "Serveur créé le "
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"default": {
+		"_description": "Activate slow mode on this channel",
+		"unauthorized": "You do not have permission to activate slow mode in this channel",
+		"invalid": "You must put the time in seconds that must elapse between each message",
+		"success": "Done!"
+	},
+	"fr": {
+		"_description": "Active le mode lent sur ce salon",
+		"unauthorized": "Vous n'avez pas la permission d'activer le mode lent  dans ce salon",
+		"invalid": "Vous devez mettre le temps en secondes qui doit s'écouler entre chaque message",
+		"success": "Fait!"
+	}
+}

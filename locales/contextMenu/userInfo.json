@@ -1,0 +1,14 @@
+{
+	"default": {
+		"title": "Server information",
+		"tag": "Tag",
+		"accountCreated": "Account created",
+		"memberSince": "Member since"
+	},
+	"fr": {
+		"title": "Informations sur le serveur",
+		"tag": "Tag",
+		"accountCreated": "Compte créé",
+		"memberSince": "Membre depuis"
+	}
+}

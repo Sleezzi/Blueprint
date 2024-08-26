@@ -1,0 +1,26 @@
+{
+	"default": {
+		"avatar": "Avatar",
+		"bio": "Bio",
+		"company": "Company",
+		"website": "Website",
+		"location": "Location",
+		"repository": "Repository",
+		"follower": "Follower",
+		"followers": "Followers",
+		"created": "Account created at",
+		"edited": "Account edited at"
+	},
+	"fr": {
+		"avatar": "Avatar",
+		"bio": "Bio",
+		"company": "Entreprise",
+		"website": "Site Internet",
+		"location": "Location",
+		"repository": "Repository",
+		"follower": "Abonné",
+		"followers": "Abonnés",
+		"created": "Compte créé le",
+		"edited": "Compte modifié le"
+	}
+}

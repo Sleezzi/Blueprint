@@ -1,0 +1,16 @@
+{
+	"default": {
+		"title": "Message edited",
+		"oldMessage": "Old message",
+		"newMessage": "New message",
+		"dateCreated": "Date the message was sent",
+		"dateEdited": "Message modification date"
+	},
+	"fr": {
+		"title": "Message modifié",
+		"oldMessage": "Ancien message",
+		"newMessage": "Nouveau message",
+		"dateCreated": "Date à la quelle le message à été envoyé",
+		"dateEdited": "Date à la quelle le message à été modifié"
+	}
+}

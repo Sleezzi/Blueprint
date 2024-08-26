@@ -1,0 +1,14 @@
+{
+	"default": {
+		"title": "Reaction removed",
+		"messageAuthor": "Author of the message",
+		"reactionCount": "Number of reactions",
+		"user": "Reaction added by"
+	},
+	"fr": {
+		"title": "Réaction retirée",
+		"messageAuthor": "Auteur du message",
+		"reactionCount": "Nombre de reactions",
+		"user": "Réaction retirée par"
+	}
+}

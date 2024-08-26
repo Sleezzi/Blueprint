@@ -1,0 +1,20 @@
+{
+	"default": {
+		"_description": "Enables a command on this server",
+		"_model": "enablecmd **`Name of command to enable`**",
+		"missingPermission": "You do not have permission to enable command",
+		"invalidMessage": "You must specify the name of command to enable",
+		"invalidCommand": "The specified command does not exist",
+		"already": "The specified command is already enabled",
+		"success": "The command has been enabled"
+	},
+	"fr": {
+		"_description": "Active un commande sur le serveur",
+		"_model": "enablecmd **`Nom de la commande a activer`**",
+		"missingPermission": "Vous n'avez pas la permission de désactiver les commandes",
+		"invalidMessage": "Vous devez entrer une commande à désactiver",
+		"invalidCommand": "La commande que vous avez spécifié n'existe pas",
+		"already": "Cette commande est déjà désactiver",
+		"success": "Cette commande a été désactiver"
+	}
+}

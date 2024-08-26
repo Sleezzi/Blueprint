@@ -1,0 +1,12 @@
+{
+	"default": {
+		"missingPermission": "You do not have permission to do this",
+		"invalid": "The prefix is not valid, it must not exceed 3 characters and must not contain",
+		"success": "The prefix has been successfully updated"
+	},
+	"fr": {
+		"missingPermission": "Vous n'avez pas la permissions de faire ça",
+		"invalid": "Le préfixe n'est pas valid, il de doit pas dépasser les 3 caractères et ne doit pas contenir: `#`, `@`, `|`, `*`, `\\`` et ` `",
+		"success": "Le préfixe a bien été modifié"
+	}
+}

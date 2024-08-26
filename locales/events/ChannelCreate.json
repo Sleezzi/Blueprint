@@ -1,0 +1,20 @@
+{
+	"default": {
+		"noDescription": "This channel has no description",
+		"text": "Text",
+		"voice": "Voice",
+		"forum": "Forum",
+		"annoucement": "Announcement",
+		"stage": "Stage",
+		"unknow": "Unknow"
+	},
+	"fr": {
+		"noDescription": "Ce salon n'a pas de description",
+		"text": "Texte",
+		"voice": "Vocale",
+		"forum": "Forum",
+		"annoucement": "Annoncement",
+		"stage": "Stage",
+		"unknow": "Inconnu"
+	}
+}

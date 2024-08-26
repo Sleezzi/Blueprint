@@ -1,0 +1,18 @@
+{
+	"default": {
+		"_description": "Delete messages in the channel in which the command is used",
+		"_model": "clear **`Number of messages to delete`** *`member`*",
+		"unauthorized": "You do not have permission to delete messages",
+		"invalidNum": "You must specify a number of messages to delete",
+		"success": "Channel content delete",
+		"success_plurals": "Channel content delete"
+	},
+	"fr": {
+		"_description": "Supprime les messages dans le salon où la commande est utilisé",
+		"_model": "clear **`Nombre de messages a supprimés`** *`member`*",
+		"unauthorized": "Vous n'avez pas la permission de supprimer des messages",
+		"invalidNum": "Vous devez spécifié un nombre de messages à supprimé",
+		"success": "Message supprimé du salon",
+		"success_plurals": "Messages supprimés du salon"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"default": {
+		"_description": "Ban a members",
+		"_model": "ban **`member`** *`Banishment time in seconds`* *`The reason for the ban`*",
+		"unauthorized": "You cannot ban a member from the server",
+		"invalidMention": "Please mention a valid member",
+		"banYourself": "You cannot ban yourself from the server",
+		"userCantBeBanned": "I can't ban this member",
+		"success": "was successfully banned for the following reason",
+		"noReason": "No reason specified"
+	},
+	"fr": {
+		"_description": "Bannie un membre",
+		"_model": "ban **`membre`** *`le temps de bannissement en seconde`* *`La reason du bannissement`*",
+		"unauthorized": "Vous ne pouvez pas bannir de membre sur ce serveur",
+		"invalidMention": "Merci de mentionnez un membre ",
+		"banYourself": "Vous ne pouvez pas vous bannir vous même du serveur",
+		"userCantBeBanned": "Je ne peux pas bannir ce membre",
+		"was successfully banned for the following reason": "a été bannie avec succès pour la raison suivante ",
+		"noReason": "Aucune raison spécifiée"
+	}
+}

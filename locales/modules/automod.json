@@ -1,0 +1,18 @@
+{
+	"default": {
+		"_name": "automod",
+		"_description": "Automatically moderate the server",
+		"advanced": "Advanced",
+		"activated": "You have activated filtering by default",
+		"advanced_reply": "You have activated classic moderation",
+		"desactivated": "You have disabled automatic moderation"
+	},
+	"fr": {
+		"_name": "automod",
+		"_description": "Modère automatiquement le serveur",
+		"advanced": "Avancée",
+		"activated": "You have activated advanced moderation",
+		"advanced_reply": "Tu as activé la modération classique",
+		"desactivated": "Tu as désactivé la modération automatique"
+	}
+}

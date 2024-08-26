@@ -1,0 +1,12 @@
+{
+	"default": {
+		"title": "Role created",
+		"any": "None",
+		"dateOfCreation": "Date of creation"
+	},
+	"fr": {
+		"title": "Role créé",
+		"any": "Aucune",
+		"dateOfCreation": "Date de création"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"default": {
+		"invalid": "This face is invalible",
+		"win": "You won",
+		"lose": "You lost",
+		"fall": "It's fall on"
+	},
+	"fr": {
+		"invalid": "Cette face n'existe pas",
+		"win": "Tu as gagné",
+		"lose": "Tu as perdu",
+		"fall": "C'est tombé sur"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"default": {
+		"error": "Impossible de trouver cette utilisateur",
+		"this": "This",
+		"is": "is the profile picture of"
+	},
+	"fr": {
+		"error": "Unable to find the avatar of user",
+		"this": "Ça",
+		"is": "est la photo de profil de"
+	}
+}

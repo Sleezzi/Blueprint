@@ -1,0 +1,10 @@
+{
+	"default": {
+		"title": "Member banned",
+		"reason": "Indecent nickname"
+	},
+	"fr": {
+		"title": "Membre banni",
+		"reason": "Pseudo indécent"
+	}
+}

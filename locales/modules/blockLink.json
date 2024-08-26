@@ -1,0 +1,12 @@
+{
+	"default": {
+		"_description": "Automatically deletes messages when they contain links.",
+		"activated": "You have activated link blocking",
+		"desactivated": "You have desactivated link blocking"
+	},
+	"fr": {
+		"_description": "Supprime automatiquement les messages contenant des liens.",
+		"activated": "Tu as activé le blocage des liens",
+		"desactivated": "Tu as désactivé le blocage des liens"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"default": {
+		"passedLevel": "you passed **level"
+	},
+	"fr": {
+		"passedLevel": "vous êtes passé **niveau"
+	}
+}

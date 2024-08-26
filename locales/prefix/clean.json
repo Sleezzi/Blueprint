@@ -1,0 +1,14 @@
+{
+	"default": {
+		"_description": "Delete bot's messages in the channel in which the command is used",
+		"unauthorized": "You do not have permission to delete messages",
+		"success": "Channel content delete",
+		"success_plurals": "Channel content delete"
+	},
+	"fr": {
+		"_description": "Supprime les messages du bot dans le salon où la commande est utilisé",
+		"unauthorized": "Vous n'avez pas la permission de supprimer des messages",
+		"success": "Message du bot supprimé du salon",
+		"success_plurals": "Messages du bot supprimés du salon"
+	}
+}
