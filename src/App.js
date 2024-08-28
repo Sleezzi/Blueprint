@@ -35,6 +35,8 @@ import {
 } from "./Pages";
 
 import "./cdn/css/main.css";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
 
 function App() {
 	const location = useLocation();
@@ -53,6 +55,8 @@ function App() {
 			<Route path="*" element={<NotFound />}/>
 			<Route path="server" element={<Server/>} />
 			<Route path="invite" element={<Invite/>} />
+			<Route path="terms" element={<Terms />} />
+			<Route path="privacy" element={<Privacy />} />
 			<Route path="docs" element={<Docs/>}>
 				<Route path="" element={<Docs_Index/>} />
 				<Route path="gettings-started/*" element={<Docs_GettingStarted_CodeRecovery/>} />

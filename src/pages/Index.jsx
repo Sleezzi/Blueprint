@@ -33,7 +33,7 @@ export default function Index() {
 		<section className={`${styles.pres} ${styles.column}`} id="0">
 			<img src="/cdn/img/Logo/RedEye.png" alt="icon"></img>
 			<h2>RedEye</h2>
-			<p style={{width: "80%", textAlign: "center"}}>A simple and intuitive multifunction bot that is fully customizable. This bot is 100% free, you don't have to pay anything!</p>
+			<p style={{width: "80%", textAlign: "center"}}>A simple and intuitive multifunction bot that is fully customizable.</p>
 			<div style={{width: "50%", display: "flex", alignItems: "center", justifyContent: "space-evenly"}}>
 				<Link to="/invite" id={styles.add} />
 				<a href="https://manage-redeye.sleezzi.fr" alt="Manage" id={styles.manage} />
@@ -88,7 +88,7 @@ export default function Index() {
 					Bot-Hosting
 					<aria-label>Bot-Hosting hosts our bot, the link used is a "sponsorship" link when you click on it and register with it, virtual coins are given to us, it allows us to pay for hosting.</aria-label>
 				</a> & 
-				<a href="https://github.com/" id={styles.github} className={styles.icon} rel="noreferrer" target="_blank">
+				<a href="https://github.com/Sleezzi/RedEye" id={styles.github} className={styles.icon} rel="noreferrer" target="_blank">
 					GitHub
 					<aria-label>Github is used for hosting this site and to facilitate RedEye development.</aria-label>
 				</a>

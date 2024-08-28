@@ -1,0 +1,9 @@
+.root {
+	height: calc(100% - 2rem * 2);
+	width: calc(100% - 5rem * 2);
+	padding: 2rem 5rem;
+	overflow: hidden auto;
+}
+.title {
+	font-size: 2.5rem;
+}
