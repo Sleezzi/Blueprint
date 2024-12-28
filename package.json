@@ -58,7 +58,7 @@
 		"inherits": "^2.0.4",
 		"is-fullwidth-code-point": "^3.0.0",
 		"is-stream": "^2.0.1",
-		"jose": "^4.15.4",
+		"jose": "^4.15.9",
 		"json-bigint": "^1.0.0",
 		"jsonwebtoken": "^9.0.2",
 		"jwa": "^2.0.0",
